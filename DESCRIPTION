@@ -1,0 +1,14 @@
+Package: drefiner
+Type: Package
+Version: 0.0.001
+Title: Refining data table using a set of formulas
+Date: 2016-04-18
+Author: Kim Seonghyun <shyeon.kim@scipi.net>
+Maintainer: Kim Seonghyun <shyeon.kim@scipi.net>
+Description: A tool for refining data frame
+Copyright: Copyright (C) 2016 Kim.
+License: Apache License 2.0 | file LICENSE
+Suggests:
+  testthat
+Depends:
+    R (>= 3.1.2)
