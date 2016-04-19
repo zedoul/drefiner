@@ -1,14 +1,14 @@
 # Copyright 2016 Kim. All right reserved.
 
 #------------------------------------------------------------------------------
-# drefiner provides a simple functionality that refines a set of indicators
+# refnr provides a simple functionality that refines a set of indicators
 #
 # TODO(kim.seonghyun) : add more cases
 #
 # Author: kim.seonghyun@scipi.net (Kim Seonghyun)
 
 #------------------------------------------------------------------------------
-drefiner <- function(.data, formulas) {
+refnr <- function(.data, formulas) {
   stopifnot(names(formulas) == c("Name", "Formula"))
 
   res <- data.frame(matrix(vector(), nrow(.data), 0),

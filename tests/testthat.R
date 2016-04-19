@@ -1,4 +1,4 @@
 library(testthat)
-library(drefiner)
+library(refnr)
 
-test_check("drefiner")
+test_check("refnr")

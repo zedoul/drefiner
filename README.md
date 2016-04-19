@@ -1,4 +1,4 @@
-drefiner
+refnr
 ==============================================================================
 
 #### An easy-to-use R package for data refinement
@@ -14,7 +14,7 @@ data table with a formula table.
 You can install this package from github with
 
   ```r
-  devtools::install_github("zedoul/drefiner")
+  devtools::install_github("zedoul/refnr")
   ```
 
 You can refine a data table as follows:
@@ -30,12 +30,12 @@ You can refine a data table as follows:
   #>   5          5.0         3.6          1.4         0.2  setosa
   #>   6          5.4         3.9          1.7         0.4  setosa
 
-  library(drefiner)
+  library(refnr)
   formulas <- rbind(c(Name = "Length",
                       Formula = "Sepal.Length + Petal.Length"),
                     c(Name = "Width",
                       Formula = "Sepal.Width + Petal.Width"))
-  res <- drefiner(iris, formulas)
+  res <- refnr(iris, formulas)
   head(res)
 
   #>    Length Width

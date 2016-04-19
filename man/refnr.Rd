@@ -1,10 +1,10 @@
-\name{drefiner}
-\alias{drefiner}
-\title{Refining data table using a set of formulas}
+\name{refnr}
+\alias{refnr}
+\title{Refining Data Table using a Set of Formulas}
 \description{
-  \code{drefiner()} performs a data refinement through R script eval function using a formula table.}
+  \code{refnr()} performs a data refinement through R script eval function using a formula table.}
 \usage{
-    drefiner(.data, formulas)
+    refnr(.data, formulas)
 }
 \arguments{
   \item{.data}{A data table}
@@ -12,12 +12,12 @@
 to have only two columns: \code{Name} and \code{Formula} respectively.}
 }
 \examples{
-  library(drefiner)
+  library(refnr)
   formulas <- rbind(c(Name = "Length",
                       Formula = "Sepal.Length + Petal.Length"),
                     c(Name = "Width",
                       Formula = "Sepal.Width + Petal.Width"))
-  res <- drefiner(iris, formulas)
-}  
+  res <- refnr(iris, formulas)
+}
 \author{Kim Seonghyun}
 \keyword{refinement}
