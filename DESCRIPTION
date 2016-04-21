@@ -1,7 +1,7 @@
 Package: refnr
 Type: Package
 Title: Refining Data Table Using a Set of Formulas
-Version: 0.1.0
+Version: 0.1.1
 Author: Kim Seonghyun [aut, cre]
 Maintainer: Kim Seonghyun <shyeon.kim@scipi.net>
 Description: A tool for refining data frame with formulas.
